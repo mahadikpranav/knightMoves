@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.cell {
+    height: 60px;
+    width: 60px;
+    border: 1.5px solid grey;
+}
+
+.blackcell {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.whitecell {
+    background-color: white;
+    color: black;
+    text-align: center; 
+}
+
+.moves {
+    color: green;
+}
+.validMove{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.selectedSquare{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
